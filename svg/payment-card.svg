@@ -1,0 +1,28 @@
+<svg
+  viewBox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g
+    stroke="#000000"
+    stroke-width="1.5"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round">
+    <rect
+      x="1.5"
+      y="3.5"
+      width="13"
+      height="8"
+      rx="1"
+      vector-effect="non-scaling-stroke">
+    </rect>
+    <rect
+      x="1.5"
+      y="5.5"
+      width="13"
+      height="1"
+      fill="black"
+      vector-effect="non-scaling-stroke">
+    </rect>
+  </g>
+</svg>
