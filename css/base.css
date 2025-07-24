@@ -1,5 +1,7 @@
 html {
   height: 100vh;
+  /* Prevent pinch zoom */
+  touch-action: pan-y;
 }
 
 body {
