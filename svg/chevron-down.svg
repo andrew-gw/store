@@ -1,0 +1,14 @@
+<svg
+  viewBox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline
+    stroke-width="1.5"
+    stroke="#000000"
+    points="1.5 5.5 8 12 14.5 5.5"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    vector-effect="non-scaling-stroke">
+  </polyline>
+</svg>
