@@ -54,6 +54,15 @@ body {
 
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: white;
+  }
+
+  a.btn {
+    box-shadow: inset 0 0 0 1px white;
+  }
+
   .services-section li a img,
   .services-section a.btn.primary {
     filter: invert(1);
