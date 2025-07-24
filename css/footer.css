@@ -1,0 +1,99 @@
+footer {
+  background: hsl(0,0%,94%);
+  padding: 10px 20px 20px 20px;
+  padding-right: calc(20px + env(safe-area-inset-right));
+  padding-bottom: calc(20px + env(safe-area-inset-bottom));
+  padding-left: calc(20px + env(safe-area-inset-left));
+}
+
+footer ::-webkit-details-marker {
+  display: none;
+}
+
+footer summary {
+  line-height: 44px;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top: 1px solid hsla(0,0%,0%,.09);
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+footer details:first-child summary {
+  border-top: none;
+}
+
+footer summary:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 100%;
+  background: url('../svg/chevron-down.svg') no-repeat;
+  background-position: right center;
+  background-size: 16px;
+  opacity: .62;
+}
+
+footer details[open] summary:after {
+  background-image: url('../svg/chevron-up.svg');
+}
+
+footer details ul {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+footer details ul a {
+  line-height: 44px;
+  color: inherit;
+  opacity: 0.62;
+}
+
+.copyright {
+  color: hsla(0,0%,0%,.5);
+  line-height: 44px;
+}
+
+.small-footer-links {
+  list-style: none;
+  margin: 0;
+  margin: 0 -10px;
+  padding: 0;
+}
+
+.small-footer-links li {
+  display: inline-block;
+}
+
+.small-footer-links li a {
+  color: hsla(0,0%,0%,.5);
+  display: inline-block;
+  line-height: 44px;
+  padding: 0 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    background: hsl(0,0%,15%);
+  }
+
+  footer summary {
+    border-color: hsla(0,0%,100%,.15);
+  }
+
+  footer summary:after {
+    filter: invert(1);
+  }
+
+  .copyright {
+    color: hsla(0,0%,100%,.5);
+  }
+
+  .small-footer-links li a {
+    color: hsla(0,0%,100%,.5);
+  }
+}
