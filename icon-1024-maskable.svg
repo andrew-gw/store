@@ -1,0 +1,10 @@
+<svg width="1024px" height="1024px" viewBox="0 0 186 186" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#006DFF" x="0" y="0" width="186" height="186"></rect>
+  <ellipse fill="#FFFFFF" cx="93" cy="93" rx="64" ry="40"></ellipse>
+  <g stroke="#006DFF" stroke-width="6" fill="none">
+    <polyline points="47 77 47 107 61 107"></polyline>
+    <path d="M83,93 C83,84 83,78 75,78 C67,78 67,84 67,93 C67,102 67,108 75,108 C83,108 83,102 83,93 Z"></path>
+    <path d="M111,86 C111,81 108,78 103,78 C95,78 95,84 95,93 C95,102 95,108 103,108 C108,108 111,103 111,94 L111,110 L111,94 L103,94"></path>
+    <path d="M139,93 C139,84 139,78 131,78 C123,78 123,84 123,93 C123,102 123,108 131,108 C139,108 139,102 139,93 Z"></path>
+  </g>
+</svg>
