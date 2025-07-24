@@ -18,6 +18,11 @@ body {
   -moz-user-select: none;
   user-select: none;
 }
+
+/* Removes 300ms tap delay from links in WebKit */
+a {
+  touch-action: manipulation;
+}
 .main-content {
   flex: 1;
   padding: 84px 20px 0 20px;
