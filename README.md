@@ -1,5 +1,3 @@
-![Store](icon-144.svg)
-
 # Store
 
 A simple store
