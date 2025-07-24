@@ -1,0 +1,77 @@
+.product-title {
+  margin-top: 10px;
+  font-size: 1.3em;
+  line-height: 1.35em;
+  margin-bottom: 6px;
+}
+
+.product-desc {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.price sup {
+  font-weight: 800;
+  font-size: .75rem;
+}
+
+.ratings-section {
+  height: 44px;
+
+  display: -webkit-box;
+  -webkit-box-align: center;
+
+  display: flex;
+  align-items: center;
+}
+
+.ratings-section img {
+  margin-left: 6px;
+}
+
+.ratings-count {
+  color: hsl(0,0%,50%);
+  margin-left: 6px;
+}
+
+.btns {
+  padding: 0 10px;
+  width: 20vw;
+}
+
+.btns .btn {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  box-shadow: none;
+  opacity: .62;
+  background: url('../svg/heart.svg') no-repeat;
+  background-position: center;
+  background-size: 24px;
+}
+
+.btns .btn.primary {
+  opacity: 1;
+  background: #006DFF url('../svg/add.svg') no-repeat;
+  background-position: center;
+  background-size: 16px;
+  margin-right: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ratings-count {
+    color: hsla(0,0%,100%,.5);
+  }
+
+  .ratings-section img {
+    filter: invert(1);
+  }
+
+  .btns .btn:not(.primary) {
+    filter: invert(1);
+  }
+}
