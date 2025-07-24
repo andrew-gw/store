@@ -1,0 +1,94 @@
+.filter-list-container {
+  overflow-x: auto;
+  box-sizing: border-box;
+  background: white;
+  z-index: 100;
+  left: 0;
+
+  margin: 0 -20px;
+  margin: 0 calc(-20px - env(safe-area-inset-left));
+
+  top: 64px;
+  top: calc(64px + env(safe-area-inset-top));
+
+  padding: 10px 20px;
+  padding: 10px calc(20px + env(safe-area-inset-left));
+
+  width: calc(100% + 40px + env(safe-area-inset-left) + env(safe-area-inset-right));
+
+  position: -webkit-sticky;
+  position: sticky;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.filter-list li {
+  display: inline-block;
+}
+
+.filter-list li a {
+  line-height: 44px;
+  margin: 0 5px;
+  display: inline-block;
+  background: hsl(0,0%,94%);
+  border-radius: 22px;
+  padding: 0 40px 0 20px;
+  color: inherit;
+  position: relative;
+}
+
+.filter-list li a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 16px;
+  height: 100%;
+  background: url('../svg/chevron-down.svg') no-repeat;
+  background-position: right center;
+  background-size: 10px;
+  opacity: .62;
+}
+
+.filter-list li a:hover {
+  background: hsl(0,0%,91%);
+  text-decoration: none;
+}
+
+.filter-list li:first-child a {
+  margin-left: 0;
+}
+
+.filter-list li:last-child a {
+  margin-right: 20px;
+  margin-right: calc(20px + env(safe-area-inset-right));
+}
+
+@media (prefers-color-scheme: dark) {
+  .filter-list-container {
+    background: black;
+  }
+
+  .filter-list li a {
+    background: hsl(0,0%,15%);
+  }
+
+  .filter-list li a:hover {
+    background: hsl(0,0%,24%);
+  }
+
+  .filter-list li a:after {
+    filter: invert(1);
+  }
+}
