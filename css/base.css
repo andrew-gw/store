@@ -10,4 +10,15 @@ body {
   flex-direction: column;
 
   -webkit-tap-highlight-color: transparent;
+
+.main-content {
+  flex: 1;
+  padding: 84px 20px 0 20px;
+  padding-right: calc(20px + env(safe-area-inset-right));
+  padding-left: calc(20px + env(safe-area-inset-left));
+  padding-top: calc(44px + 20px + env(safe-area-inset-top) + 20px);
+}
+
+.main-content h1 {
+  margin: 0 0 20px 0;
 }
