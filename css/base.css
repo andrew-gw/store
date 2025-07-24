@@ -30,6 +30,11 @@ a {
   -moz-user-drag: none;
   user-drag: none;
 }
+
+/* Prevent double-tap / pinch zoom on images */
+img {
+  touch-action: pan-x pan-y;
+}
 .main-content {
   flex: 1;
   padding: 84px 20px 0 20px;
