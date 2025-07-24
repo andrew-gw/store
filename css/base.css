@@ -23,6 +23,13 @@ body {
 a {
   touch-action: manipulation;
 }
+
+/* Prevent dragging images and links to desktop */
+* {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  user-drag: none;
+}
 .main-content {
   flex: 1;
   padding: 84px 20px 0 20px;
