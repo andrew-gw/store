@@ -1,0 +1,123 @@
+.group-header {
+  box-sizing: border-box;
+  position: relative;
+
+  margin: 0 -20px;
+  margin: 0 calc(-20px - env(safe-area-inset-left));
+
+  padding: 0 20px;
+  padding: 0 calc(20px + env(safe-area-inset-left));
+
+  padding-top: 20px;
+  padding-bottom: 84px;
+
+  width: calc(100% + 40px + env(safe-area-inset-left) + env(safe-area-inset-right));
+}
+
+.group-header.grey {
+  background: hsl(0,0%,94%);
+}
+
+.group-header h2 {
+  margin: 8px 0 20px 0;
+}
+
+.group-header > a.btn {
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+
+  left: 0;
+  left: env(safe-area-inset-right);
+
+  right: 10px;
+  right: calc(10px + env(safe-area-inset-right));
+}
+
+.group-header > a.btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 44px;
+  width: 44px;
+  background: url(../svg/chevron-right.svg) no-repeat;
+  background-position: center;
+  background-size: 16px;
+  opacity: .62;
+}
+
+.product-list-container {
+  overflow-x: auto;
+
+  margin: 0 -20px;
+  margin: 0 calc(-20px - env(safe-area-inset-left));
+
+  width: calc(100% + 40px + env(safe-area-inset-left) + env(safe-area-inset-right));
+  -webkit-overflow-scrolling: touch;
+}
+
+.product-list-container::-webkit-scrollbar {
+  height: 2px;
+}
+
+.product-list-container::-webkit-scrollbar-track {
+  border-radius: 1px;
+  background: hsl(0,0%,91%);
+}
+
+.product-list-container::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: black;
+}
+
+.product-list {
+  white-space: nowrap;
+}
+
+.product-list li {
+  margin-bottom: 0;
+}
+
+@media (orientation: portrait) {
+  .group-header > a.btn {
+    box-shadow: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .group-header {
+    padding-bottom: 20px;
+  }
+
+  .group-header > a.btn {
+    left: auto;
+    top: 20px;
+    bottom: auto;
+
+    right: 30px;
+    right: calc(30px + env(safe-area-inset-right));
+  }
+
+  .group-header > a.btn::after {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .group-header.grey {
+    background: hsl(0,0%,15%);
+  }
+
+  .group-header > a.btn::after {
+    filter: invert(1);
+  }
+
+  .product-list-container::-webkit-scrollbar-track {
+    background: hsl(0,0%,15%);
+  }
+
+  .product-list-container::-webkit-scrollbar-thumb {
+    background: white;
+  }
+}
