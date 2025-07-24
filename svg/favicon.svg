@@ -1,0 +1,9 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <ellipse fill="#006DFF" cx="64" cy="64" rx="64" ry="40"></ellipse>
+  <g stroke="#FFFFFF" stroke-width="6" fill="none">
+    <polyline points="18 48 18 78 32 78"></polyline>
+    <path d="M54,64 C54,55 54,49 46,49 C38,49 38,55 38,64 C38,73 38,79 46,79 C54,79 54,73 54,64 Z"></path>
+    <path d="M82,57 C82,52 79,49 74,49 C66,49 66,55 66,64 C66,73 66,79 74,79 C79,79 82,74 82,65 L82,81 L82,65 L74,65"></path>
+    <path d="M110,64 C110,55 110,49 102,49 C94,49 94,55 94,64 C94,73 94,79 102,79 C110,79 110,73 110,64 Z"></path>
+  </g>
+</svg>
