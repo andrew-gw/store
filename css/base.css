@@ -22,3 +22,38 @@ body {
 .main-content h1 {
   margin: 0 0 20px 0;
 }
+
+.services-section a.btn.primary {
+  background-color: black;
+}
+
+.services-section .product-list li > a {
+  min-height: 190px;
+}
+
+.services-section .product-list li > a .product-title {
+  margin-bottom: 20px;
+}
+
+.services-section .product-list li > a .product-desc {
+  opacity: .62;
+}
+
+.services-section .product-list li > a img {
+  height: 32px;
+  width: 32px;
+  opacity: .62;
+  margin-top: 20px;
+}
+
+.services-section a.btn.primary {
+  background: black url('../svg/arrow-right.svg') center / 16px no-repeat;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .services-section li a img,
+  .services-section a.btn.primary {
+    filter: invert(1);
+  }
+}
