@@ -1,0 +1,57 @@
+html {
+  /* Prevent font scaling in landscape */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  /* Dynamic Text size support for Accessibility */
+  font: -apple-system-body;
+  font-family: system-ui, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+/* Large Title */
+h1 {
+  font-size: max(32px, min(2em, 64px));
+  line-height: 1.35em;
+  margin-bottom: 4px;
+}
+
+/* Title */
+h2 {
+  font-size: 1.65em;
+  line-height: 1.35em;
+  margin-bottom: 4px;
+}
+
+/* Heading */
+h3 {
+  font-size: 1.3em;
+  line-height: 1.35em;
+  margin-bottom: 4px;
+}
+
+/* Subheading */
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 4px;
+}
+
+
+p {
+  line-height: min(1.53em, 64px);
+}
+
+
+a {
+  color: #006DFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
