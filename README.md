@@ -15,6 +15,7 @@ A simple store
 - Light & Dark Mode
 - Works Across Devices, Platforms, and Browsers
 - Works Offline
+- Custom SVG Icons
 - Supports Dynamic Type / Device Font Size Settings
 - Supports Assistive Technologies (Screen Readers)
 
