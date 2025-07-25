@@ -30,7 +30,7 @@
   margin-right: calc(20px + env(safe-area-inset-right));
 }
 
-.product-list li > a > img {
+.product-list li > a > img:first-of-type {
   width: 20vw;
   height: 20vw;
   -webkit-object-fit: cover;
@@ -47,7 +47,7 @@
     width: 33vw;
   }
 
-  .product-list li > a img {
+  .product-list li > a > img:first-of-type {
     width: 33vw;
     height: 33vw;
   }

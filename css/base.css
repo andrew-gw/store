@@ -85,7 +85,7 @@ a.btn.primary {
   opacity: .62;
 }
 
-.services-section .product-list li > a img {
+.services-section .product-list li > a > img:first-of-type {
   height: 32px;
   width: 32px;
   opacity: .62;
