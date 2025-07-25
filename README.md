@@ -57,6 +57,23 @@ A simple store
 - JavaScript
 
 
+## Credits
+
+### Photo Acknowledgements
+
+- [Ksenia Chernaya](https://www.pexels.com/@kseniachernaya)
+   - [Close-up of a Wooden Table](https://www.pexels.com/photo/close-up-of-a-wooden-table-11112739)
+   - [A Soft Cushion Armchair in Gray Upholstery](https://www.pexels.com/photo/a-soft-cushion-armchair-in-gray-upholstery-11112735)
+   - [A Wooden Table with Drawers](https://www.pexels.com/photo/a-wooden-table-with-drawers-11112745)
+   - [Close-up of a Single Sofa](https://www.pexels.com/photo/close-up-of-a-single-sofa-11112727)
+   - [Close-up of a Wooden Chair](https://www.pexels.com/photo/close-up-of-a-wooden-chair-11112732)
+   - [A Sofa Near a White Wall](https://www.pexels.com/photo/a-sofa-near-a-white-wall-11112731) 
+
+- [Engin Akyurt](https://www.pexels.com/@enginakyurt)
+   - [Brown Couch on White Background](https://www.pexels.com/photo/brown-couch-on-white-background-4172381)
+   - [Green Padded Armchair in Close Up Shot](https://www.pexels.com/photo/green-padded-armchair-in-close-up-shot-4172379)
+
+
 ## License
 
 [Store](https://github.com/andrew-gw/store) is licensed under the MIT License.
