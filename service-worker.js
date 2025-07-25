@@ -42,10 +42,10 @@ self.addEventListener('install', (event) => {
       'svg/chevron-up.svg',
 
       'product/kitchen-table.html',
-      'product/modern-chair.html',
-      'product/wrap-around-sofa.html',
+      'product/lounge-chair.html',
+      'product/sectional-sofa.html',
       'product/modern-desk.html',
-      'product/modern-accent-chair.html',
+      'product/accent-chair.html',
       'product/leather-chair.html',
       'product/kitchen-chair.html',
       'product/modern-love-seat.html'
